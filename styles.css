@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.hero{
+	height:400px;
+	width:600px;
+	object-fit:cover;
+	background-color:beige;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.content{
+	margin:30px;
+}
+.content>h2{
+	text-align:center;
+}
+.content>p{
+	font-size:13px;
+	text-align:center;
+	margin-top:15px;
+}
+.content>button{
+	background-color:red;
+	color:white;
+	textalign:center;
+	padding:5px 15px;
+	border-radius:7px;
+	margin-left:30px;
+    margin-top:15px;
+}

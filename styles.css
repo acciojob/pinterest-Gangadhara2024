@@ -6,17 +6,19 @@
 .hero{
 	height:400px;
 	width:600px;
-	object-fit:cover;
 	background-color:beige;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
+.img{
+	object-fit:cover;
+}
 
 .content{
 	margin:30px;
 }
-.content>h2{
+.content>h1{
 	text-align:center;
 }
 .content>p{
@@ -32,4 +34,5 @@
 	border-radius:7px;
 	margin-left:30px;
     margin-top:15px;
+	border:none;
 }
